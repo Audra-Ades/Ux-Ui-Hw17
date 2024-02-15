@@ -29,17 +29,7 @@ ul{
     cursor: pointer;
  }
 
-.Extra{
-    font-family:Impact;
-    font-size: 100px;
-    align-content: center;
-    margin: auto;
-    text-align: center;
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 30px;
-   
-}
+
 .me{
     font-family:old london alternate;
     font-size: 60px;
@@ -56,9 +46,10 @@ ul{
     text-align: center;
     width: 50%;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
+
 }
 .styled {
     line-height: 2.5;
@@ -183,3 +174,178 @@ align-items: center;
     font-family: Old london alternate; 
     
 }
+ul{
+    font-family:old london alternate;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:black;
+    margin: 50px;
+    padding-bottom: 25px;   
+  
+}
+
+ ul a:hover{
+    color:#dd5444;
+    cursor: pointer;
+ } 
+ 
+ .styled {
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: black;
+    font-family: old london alternate;
+    border-radius: 10px;
+    background-color: #fff8e0;
+    font-size: 25px;
+    margin-top: 0px;
+
+   
+  }
+  
+  
+  .styled:hover {
+    color: #dd5444;
+    border-color: #dd5444;
+    cursor: pointer;
+  }
+
+ .foot{
+    font-family:old london alternate;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+footer a:hover{
+    color:#dd5444;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+ }
+ .socials{
+display: flex;
+text-align: center;
+align-items: center;
+}
+
+.row{
+   display: flex;
+   bottom: 50px;
+  padding-inline: 15px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+ position: relative;
+  top: 30px;
+  bottom: 10px;
+}
+.point1{
+   padding-top: 35px;
+   margin: 0;
+}
+
+.link{
+    text-decoration: none;
+   color: black;
+}
+.row a:hover{
+    color:#dd5444;
+    cursor: pointer;
+     } 
+
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color:#dd5444;
+    color: #fff8e0;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    font-family: Din condensed;
+    font-size: 20px;
+    padding: 15px;
+
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  .copy{
+    font-family: Din condensed;
+    font-size: 15px;
+    background-color: #fbf4dc;
+    border-radius: 5px;
+    border:#dd5444 solid;
+    color: #dd5444;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .red{
+  
+    width:10%;
+    align-items: left;
+   position: relative;
+   }
+
+  .red2{
+  display: flex;
+  width:10%;
+  right: 10;
+  margin: 0;
+ }
+ .Extra{
+    display:flex;
+    justify-content: center;
+    font-size: 150px;
+    font-family: nikeflix outline; 
+    color: #dd5444;
+    z-index: 6;
+   margin: 0;
+   padding-top: 20px;
+ }

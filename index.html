@@ -4,24 +4,56 @@
 <head> 
   <link href="css/index.css" type="text/css" rel="stylesheet">
 </head>
-<body style="background-color:
-#fff8e0;">
+<body style="background-color:#fff8e0; border:black solid 5px; ">
+  <script src="js/script.js"></script>
 <h1 class="name">
    <div style="text-align: center;" >
-  <img width= 70%; 
-  src="images/v1.png">
+  <img width= 80%; 
+  src="images/newsheading.gif">
 </h1>
 
-<ul>
-    <a >About</a>
+<ul >
+    <a class="link" style="color:#dd5444;" href="https://audra-ades.github.io/Ux-Ui-Hw17/">About</a>
     <a >Skills</a>
-    <a >Work</a>
-    <a >Contact</a>
+    <a class="link" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/" >Work</a>
+    <a class="popup" onclick="myFunction()"> Contact
+      <span class="popuptext" id="myPopup">
+        <div id="sample">
+        Email: Audraades@gmail.com
+      </div>
+      <br />
+       
+      <button class="copy" onclick="copyText()">Copy</button>
+      <br />
+       
+       
+      <script>
+          function copyText() {
+       
+            
+              navigator.clipboard.writeText
+                  ("Audraades@gmail.com");
+          }
+      </script>
+      
+     
+      </span> 
+      
+    </a>
   </ul>
+
+ 
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
     
-  <h2 class= "grid-container"; style="border: black solid 5px;">
+  <h2 class= "grid-container"; style="border: black solid 5px; margin: 80px;">
       <p class="Extra">
-        EXTRA! EXTRA!</p> 
+        EXTRA!  EXTRA!</p> 
 
         
       <div class="me">Read all about her!
@@ -30,42 +62,21 @@
         <img width= 50%; 
         src="images/newspaperme.png">
       </div>
-      <p class="blurb"> Audra learned her Ux/Ui design skills through taking a bootcamp course at UNCC. Through this course she developed skills such as protoyping and coding a website, decontructing and reconstructing a webpage to be more usable, empathizing with users to identify their pain points, and using tools such as Figma, Miro, Adobe, Github, and Html. 
+      <p class="blurb"> Audra is a well-rounded designer and artist with 10 years of experience in the creative field designing logos and graphics for various clients. Her journey as an artist began at San Jose State University, where she originally intended to study digital media but after two years switched majors, and graduated in december 2020 with a bachelors in studio art. Her most recent achievment is attending and completing a 6 month Ux/Ui design bootcamp course. Through this course she developed skills such as protoyping,  slighty more in depth coding skills, decontructing and reconstructing a webpage to be more usable, using empathy and perspective to understand the frustrations of a user and redesign a system to eliminate any pain points in the hopes that the user will complete the intended task. , and using tools such as Figma, Miro, Adobe, Github, and Html. Overall Audra is a well rounded candidate that brings creative thinking and a positive attitude to any work place environement.
       </p>
     </div>
-    <div style="text-align: center;"><button class="styled" type="button" >Download Resume</button>
-    </div>
+   
+  
+    <div class="row"><img  src="../images/handpointleft.gif"; width="20%"; class="point1" ><button class="styled" type="button" ><a class="link" href="AudraResume .docx.pdf" download="AudraResume";>Download Resume</a></button>
+   
+      <img src="../images/handpointright.gif"; width="20%"; class="point1">
+   </div>
+  
      </h2>
 
-<section style="text-align:center; border: black solid 5px; margin: 100px;" class="myskills" > Newsflash!!!
-  
-  <p class="skillblurb"> My Skills...</p>
 
-<div class="skill1" ><img style="text-align:center;" width="70%"; src="images/stair1.png">
- <h1 >Tools:
-  <p class="skillp"> My skills within the Adobe creative cloud include the use of Lightroom, Photoshop, and Illustrator. I also have an understanding of coding (... this website) using github and visual studio. My strengths are in html and css but I do understand some javascript as well. I also used procreate to create all the drawings seen on this site as well as the gifs </p>
-</h1>
-
-</div>
-
-<div class="skill2">
-  <h1 style="text-align: left;">Ux/ Ui specific:
-    <p style="align-content:left; align-items:self-start;"class= "skillp2"> I am well versed in tools such as Figma and Miro for designing and prototyping websites. I have also conducted my own research in the past such as interviews, surveys,guerilla testing and A/B testing and comprehend using said research to create a more usable platform. 
-     
- </h1>
- <img id="stair2"; width="70%"; src="images/stair2.png"></p>
- </div>
   
 
-      <div class="skill3" ><img style="text-align:center;" width="70%"; src="images/stair1.png">
-        <h1 >Communication:
-         <p class="skillp3"> My skills within the Adobe creative cloud include the use of Lightroom, Photoshop, and Illustrator. I also have an understanding of coding (... this website) using github and visual studio. My strengths are in html and css but I do understand some javascript as well. I also used procreate to create all the drawings seen on this site as well as the gifs </p>
-       </h1>
-    
-  
- </div>
- <div><button class="styled" type="button" >...Read More</button>
- </div>
 
 
 
@@ -87,24 +98,24 @@
 
 
 <footer>
-
-  <ul class="foot">
     
-    <a >About</a>
-    <a >Skills</a>
-    <a >Work</a>
-    <a >Contact</a>
+    <ul class="foot">
+      <a style="color:#dd5444;">About</a>
+      <a >Skills</a>
+      <a class="link" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/" >Work</a>
+        
+      </a>
   </ul>
 
 
-  <div class="socials" style="border: black solid 5px; height: 100px;">
-    <a> <img width= 10%; 
+  <div class="socials" style="border: black solid 5px; height: 100px; margin:50Px"><img class="red" src="./images/red.PNG">
+    <a class="link" href="https://www.instagram.com/audgeepaudgee/"> <img width= 15%; 
       src="images/insta.png"></a>
-    <a> <img width= 10%; 
+    <a class="link" href="https://www.linkedin.com/in/audra-ades-418436282/"> <img width= 15%; 
         src="images/linked.png"></a>
-     <a> <img width= 10%; 
+     <a href="mailto:audraades@gmail.com"> <img width= 15%; 
           src="images/mail.png"></a>
-  </div>
+     <img class="red2" src="./images/red2.PNG">  
 </footer>
 
 </html>
