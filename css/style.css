@@ -352,7 +352,4 @@ align-items: center;
    margin: 0;
    padding-top: 20px;
  }
- @font-face {
-  font-family: 'Old London Alternate';
-  src: url('https://www.dafont.com/old-london.font');
-}
+ @font-face {font-family:"Old London Alternate";src:url("OldLondonAlternate.eot?") format("eot"),url("OldLondonAlternate.woff") format("woff"),url("OldLondonAlternate.ttf") format("truetype"),url("OldLondonAlternate.svg#OldLondonAlternate") format("svg");font-weight:normal;font-style:normal;}
