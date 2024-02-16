@@ -353,5 +353,5 @@ align-items: center;
    padding-top: 20px;
  }
  @font-face {
-  font-family:"Old London Alternate";src:url("OldLondonAlternate.ttf") format("truetype"),url("OldLondonAlternate.svg#OldLondonAlternate") format("svg");font-weight:normal;font-style:normal;}
+  font-family:"Old London Alternate";src:url("OldLondonAlternate.svg#OldLondonAlternate") format("svg");font-weight:normal;font-style:normal;}
   
