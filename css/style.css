@@ -14,7 +14,7 @@
     text-align: center;
 }
 ul{
-    font-family:old london alternate;
+    font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@ ul{
 
 
 .me{
-    font-family:old london alternate;
+    font-family:Old London Alternate;
     font-size: 60px;
     text-align: center;
     display: flex;
@@ -40,7 +40,7 @@ ul{
 
 }
 .blurb{
-    font-family: DiN condensed ;
+    font-family: DIN Condensed ;
     align-content: center;
     margin: auto;
     text-align: center;
@@ -56,7 +56,7 @@ ul{
     padding: 0 20px;
     font-size: 1rem;
     color: black;
-    font-family: old london alternate;
+    font-family: Old London Alternate;
     border-radius: 10px;
     background-color: #fff8e0;
     font-size: 25px;
@@ -73,7 +73,7 @@ ul{
   }
 
  .foot{
-    font-family:old london alternate;
+    font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -117,7 +117,7 @@ align-items: center;
     font-size: 15px;
     display: flex;
     align-content: center;
-    font-family: Din condensed;
+    font-family: DIN Condensed;
     width:70%;
     margin:auto;
 }
@@ -125,7 +125,7 @@ align-items: center;
     font-size: 30px;
     display: flex;
     float: left;
-    font-family: old london alternate;
+    font-family: Old London Alternate;
     margin:auto;
     align-content: right;
     text-align: right;
@@ -137,7 +137,7 @@ align-items: center;
     font-size: 15px;
     display: flex;
     align-items: left;
-    font-family: Din condensed;
+    font-family: DIN Condensed;
     width:70%; 
     padding: 10px; 
     
@@ -149,7 +149,7 @@ align-items: center;
     font-size: 25px;
     display: flex;
     align-items: center;
-    font-family: old london alternate;
+    font-family: Old London Alternate;
     margin:auto;
     padding-right: 60px;
    
@@ -160,7 +160,7 @@ align-items: center;
     font-size: 15px;
     display: flex;
     align-content: center;
-    font-family: Din condensed;
+    font-family: DIN Condensed;
     width:70%; 
     margin:auto;
     
@@ -171,11 +171,11 @@ align-items: center;
     display:flex;
     justify-content: center;
     font-size: 60px;
-    font-family: Old london alternate; 
+    font-family: Old London Alternate; 
     
 }
 ul{
-    font-family:old london alternate;
+    font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -196,7 +196,7 @@ ul{
     padding: 0 20px;
     font-size: 1rem;
     color: black;
-    font-family: old london alternate;
+    font-family: Old London Alternate;
     border-radius: 10px;
     background-color: #fff8e0;
     font-size: 25px;
@@ -213,7 +213,7 @@ ul{
   }
 
  .foot{
-    font-family:old london alternate;
+    font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -281,7 +281,7 @@ align-items: center;
     bottom: 125%;
     left: 50%;
     margin-left: -80px;
-    font-family: Din condensed;
+    font-family: DIN Condensed;
     font-size: 20px;
     padding: 15px;
 
@@ -317,7 +317,7 @@ align-items: center;
     to {opacity:1 ;}
   }
   .copy{
-    font-family: Din condensed;
+    font-family: DIN Condensed;
     font-size: 15px;
     background-color: #fbf4dc;
     border-radius: 5px;
