@@ -331,13 +331,16 @@ align-items: center;
     width:10%;
     align-items: left;
    position: relative;
+   top: 5px;
    }
 
   .red2{
   display: flex;
+  position:relative;
   width:10%;
   right: 10;
-  margin: 0;
+  bottom: 5px;
+ 
  }
  .Extra{
     display:flex;
