@@ -14,7 +14,7 @@
     text-align: center;
 }
 ul{
-  font-family: 'Old London Alternate', sans-serif;
+  font-family: Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@ ul{
 
 
 .me{
-  font-family: 'Old London Alternate', sans-serif;
+  font-family: Old London Alternate;
     font-size: 60px;
     text-align: center;
     display: flex;
