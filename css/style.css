@@ -172,11 +172,11 @@ align-items: center;
     display:flex;
     justify-content: center;
     font-size: 60px;
-    font-family: Old London Alternate; 
+    font-family:Old London Alternate;
     
 }
 ul{
-  font-family: Old London Alternate;
+  font-family:Old London Alternate;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
