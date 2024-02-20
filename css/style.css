@@ -62,7 +62,7 @@ ul{
     font-size: 25px;
     justify-content: space-around;
     margin-bottom: 30px;
-    border-color:black;
+    border-color:black solid 2px;
    
   }
   
