@@ -196,7 +196,7 @@ ul{
     padding: 0 20px;
     font-size: 1rem;
     color: black;
-    font-family: "UnifrakturCook";
+    font-family: "Old London";
     border-radius: 10px;
     background-color: #fff8e0;
     font-size: 25px;
@@ -352,3 +352,7 @@ align-items: center;
    margin: 0;
    padding-top: 20px;
  }
+ @font-face {
+  font-family: 'Old London';
+  src: url('https://www.fontsaddict.com/fontface/old-london.ttf');
+}
