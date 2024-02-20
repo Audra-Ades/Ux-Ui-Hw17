@@ -8,13 +8,13 @@
 }
 
 .name{
-    font-family: 'Old London Alternate';
+  font-family: 'Old London Alternate', sans-serif;
     color:black;
     font-size:50px;
     text-align: center;
 }
 ul{
-    font-family:"Old London Alternate";
+  font-family: 'Old London Alternate', sans-serif;
     font-size: 30px;
     display:flex;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@ ul{
 
 
 .me{
-    font-family:'Old London Alternate';
+  font-family: 'Old London Alternate', sans-serif;
     font-size: 60px;
     text-align: center;
     display: flex;
@@ -196,7 +196,7 @@ ul{
     padding: 0 20px;
     font-size: 1rem;
     color: black;
-    font-family: Old London Alternate;
+    font-family: "UnifrakturCook";
     border-radius: 10px;
     background-color: #fff8e0;
     font-size: 25px;
