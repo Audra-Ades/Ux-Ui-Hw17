@@ -62,13 +62,14 @@ ul{
     font-size: 25px;
     justify-content: space-around;
     margin-bottom: 30px;
+    border-color:black;
    
   }
   
   
   .styled:hover {
-    color: rgba(255, 0, 0, 1);
-    border-color: red;
+    color: #dd5444;
+    border-color: #dd5444;
     cursor: pointer;
   }
 
