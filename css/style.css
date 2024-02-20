@@ -347,7 +347,7 @@ align-items: center;
     display:flex;
     justify-content: center;
     font-size: 150px;
-    font-family: Nikeflix Outline; 
+    font-family: 'Royal AcidBath Outline'; 
     color: #dd5444;
     z-index: 6;
    margin: 0;
@@ -356,4 +356,12 @@ align-items: center;
  @font-face {
   font-family: 'Old London Alternate';
   src: url('https://www.fontsaddict.com/fontface/old-london-alternate.ttf');
+}
+@font-face {
+  font-family: 'Royal Acidbath Outline';
+  src: url('https://www.fontsaddict.com/fontface/royal-acidbath-outline.ttf');
+}
+@font-face {
+  font-family: 'Royal Acidbath Outline';
+  src: url('https://www.fontsaddict.com/fontface/royal-acidbath-outline.ttf');
 }
